@@ -6,7 +6,7 @@ var b = 0;
 function setup() {
   var cnv = createCanvas(400, 400);
   var wx = (windowWidth - width)/2;
-  var wy = (windowHeight - height)/2;
+  var wy = (windowHeight - height)/2 +. 50;
   cnv.position(wx, wy); // centers the canvas
 }
 
